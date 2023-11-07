@@ -11,8 +11,7 @@ function returnsANamedFunction(){
 }
 
 function returnsAnAnonymousFunction(){
-    const myne = function(){
+    return function(){
         console.log('hello')
     }
-    return myne
 }
